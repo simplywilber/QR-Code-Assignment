@@ -1,0 +1,50 @@
+body {
+  background-color: #d5e1ef;
+  font-family: "Google Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#qr-code-img {
+  height: 288px;
+  width: 288px;
+  border-radius: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 2%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 285px;
+  max-width: 90%;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+.card-text {
+  text-align: center;
+  padding: 0 0.5em;
+}
+
+.card-header {
+  font-weight: bolder;
+  font-size: 1.4em;
+}
+
+.card-text-body {
+  color: #8e969f;
+}
